@@ -1,0 +1,23 @@
+{
+  "name": "react_forum_app_template",
+  "version": "1.0.0",
+  "description": "react forum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsjungcr/react_forum_app_template.git"
+  },
+  "keywords": [
+    "react",
+    "forum"
+  ],
+  "author": "Han Jung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsjungcr/react_forum_app_template/issues"
+  },
+  "homepage": "https://github.com/hsjungcr/react_forum_app_template#readme"
+}
