@@ -1,15 +1,16 @@
-import { Component as React } from 'react';
+import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Main from './components/Main';
 
-class Router extends Component {
+
+class RoutePath extends Component {
     render() {
         return (
             <Switch>
                 <Route exact path='/' component={Main} />
             </Switch>
-
         )
     }
 }
 
-export default Router;
+export default RoutePath;

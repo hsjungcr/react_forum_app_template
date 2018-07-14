@@ -1,6 +1,6 @@
-import {Component as React} from 'react';
+import React, { Component } from 'react';
 
-class HeaderNav extends React {
+class HeaderNav extends Component {
     render() {
         return (
             <nav>

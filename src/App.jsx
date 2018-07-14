@@ -1,12 +1,17 @@
-import { Component as React } from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import HeaderNav from './components/HeaderNav';
+import RoutePath from './RoutePath';
 
-class App extends React {
+class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <div>
                 <HeaderNav />
-                <Router />
-            </BrowserRouter>
+                <BrowserRouter>
+                    <RoutePath />
+                </BrowserRouter>
+            </div>
         );
     }
 }
