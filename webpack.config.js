@@ -1,26 +1,33 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var APP_DIR = path.resolve(__dirname, 'src');
-
-var config = {
-  entry: APP_DIR + '/index.jsx',
+module.exports = {
+  entry: [
+    './src/index.jsx'
+  ],
   output: {
-    path: APP_DIR,
+    path: __dirname + '/dist',
+    publicPath: '/',
     filename: 'bundle.js'
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['*', '.js', '.jsx']
   },
-  module : {
-    loaders : [
+  module: {
+    rules: [
       {
-        test : /\.jsx?$/,
-        include : APP_DIR,
-        loader : 'babel-loader'
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: ['babel-loader']
       }
     ]
+  },
+  devServer: {
+    contentBase: './dist'
+  },
+
+  node: {
+    fs: "empty",
+    net: "empty"
   }
 };
-
-module.exports = config;
