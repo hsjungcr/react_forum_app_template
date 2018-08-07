@@ -4,7 +4,8 @@
   "description": "react forum",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "start": "node ./index.js",
+    "dev-start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "babel": {
     "presets": [
