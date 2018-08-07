@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = {
   entry: [
     'react-hot-loader/patch',
-    './src/index.jsx'
+    './src/appContainer.jsx'
   ],
   output: {
     path: __dirname + '/dist',
