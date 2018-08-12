@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
+import {Link} from 'react-router-dom';
 
 class HeaderNav extends Component {
     state = {};
@@ -13,23 +14,21 @@ class HeaderNav extends Component {
                     <img src='/logo.png' />
                 </Menu.Item>
                 <Menu.Item
-                    name='features'
-                    active={activeItem === 'features'}
+                    name='announcement'
+                    active={activeItem === 'announcement'}
                     onClick={this.handleItemClick}>
-                    Features
-        </Menu.Item>
+                    <Link to='announcement'>Announcement</Link>
+                </Menu.Item>
 
                 <Menu.Item
                     name='testimonials'
                     active={activeItem === 'testimonials'}
-                    onClick={this.handleItemClick}
-                >
+                    onClick={this.handleItemClick}>
                     Testimonials
-        </Menu.Item>
-
+                </Menu.Item>
                 <Menu.Item name='sign-in' active={activeItem === 'sign-in'} onClick={this.handleItemClick}>
                     Sign-in
-        </Menu.Item>
+                </Menu.Item>
             </Menu >
         );
     }

@@ -7,13 +7,9 @@ import PageBanner from './components/navigation/PageBanner';
 class App extends Component {
     render() {
         return (
-            <div>
-                <PageBanner />
-                <HeaderNav />
                 <BrowserRouter>
                     <RoutePath />
                 </BrowserRouter>
-            </div>
         );
     }
 }
