@@ -1,0 +1,622 @@
+[
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_statistic",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_type",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_authid",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_user_mapping",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_attribute",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_proc",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_class",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_attrdef",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_constraint",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_inherits",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_index",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_operator",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_opfamily",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_opclass",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_am",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_amop",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_amproc",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_language",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_largeobject_metadata",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_aggregate",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_rewrite",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_largeobject",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_trigger",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_event_trigger",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_description",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_cast",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_enum",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_namespace",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_conversion",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_depend",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_database",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_db_role_setting",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_tablespace",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_pltemplate",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_auth_members",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_shdepend",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_shdescription",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_ts_config",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_ts_config_map",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_ts_dict",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_ts_parser",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_ts_template",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_extension",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_foreign_data_wrapper",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_foreign_server",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_foreign_table",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_policy",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_replication_origin",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_default_acl",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_init_privs",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_seclabel",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_shseclabel",
+        "tableowner": "rdsadmin",
+        "tablespace": "pg_global",
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_collation",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_range",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "pg_catalog",
+        "tablename": "pg_transform",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": true,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "information_schema",
+        "tablename": "sql_features",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": false,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "information_schema",
+        "tablename": "sql_implementation_info",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": false,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "information_schema",
+        "tablename": "sql_languages",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": false,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "information_schema",
+        "tablename": "sql_packages",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": false,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "information_schema",
+        "tablename": "sql_parts",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": false,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "information_schema",
+        "tablename": "sql_sizing",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": false,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    },
+    {
+        "schemaname": "information_schema",
+        "tablename": "sql_sizing_profiles",
+        "tableowner": "rdsadmin",
+        "tablespace": null,
+        "hasindexes": false,
+        "hasrules": false,
+        "hastriggers": false,
+        "rowsecurity": false
+    }
+]
